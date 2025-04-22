@@ -1,0 +1,49 @@
+{
+  "estados": ["q0", "q1", "q2", "q3", "q4", "q6", "NA"],
+  "alfabeto": ["a", "b", "c", "d", "e"],
+  "e_inicial": "q0",
+  "e_finales": ["q6"],
+  "trancisiones": [
+    {"origen": "q0", "simbolo": "a", "destino": "q1"},
+    {"origen": "q0", "simbolo": "b", "destino": "NA"},
+    {"origen": "q0", "simbolo": "c", "destino": "NA"},
+    {"origen": "q0", "simbolo": "d", "destino": "NA"},
+    {"origen": "q0", "simbolo": "e", "destino": "NA"},
+
+    {"origen": "q1", "simbolo": "b", "destino": "q2"},
+    {"origen": "q1", "simbolo": "a", "destino": "NA"},
+    {"origen": "q1", "simbolo": "c", "destino": "NA"},
+    {"origen": "q1", "simbolo": "d", "destino": "NA"},
+    {"origen": "q1", "simbolo": "e", "destino": "NA"},
+
+    {"origen": "q2", "simbolo": "c", "destino": "q3"},
+    {"origen": "q2", "simbolo": "a", "destino": "NA"},
+    {"origen": "q2", "simbolo": "b", "destino": "NA"},
+    {"origen": "q2", "simbolo": "d", "destino": "NA"},
+    {"origen": "q2", "simbolo": "e", "destino": "NA"},
+
+    {"origen": "q3", "simbolo": "d", "destino": "q4"},
+    {"origen": "q3", "simbolo": "a", "destino": "NA"},
+    {"origen": "q3", "simbolo": "b", "destino": "NA"},
+    {"origen": "q3", "simbolo": "c", "destino": "NA"},
+    {"origen": "q3", "simbolo": "e", "destino": "NA"},
+
+    {"origen": "q4", "simbolo": "c", "destino": "q3"},
+    {"origen": "q4", "simbolo": "e", "destino": "q6"},
+    {"origen": "q4", "simbolo": "a", "destino": "NA"},
+    {"origen": "q4", "simbolo": "b", "destino": "NA"},
+    {"origen": "q4", "simbolo": "d", "destino": "NA"},
+
+    {"origen": "q6", "simbolo": "a", "destino": "NA"},
+    {"origen": "q6", "simbolo": "b", "destino": "NA"},
+    {"origen": "q6", "simbolo": "c", "destino": "NA"},
+    {"origen": "q6", "simbolo": "d", "destino": "NA"},
+    {"origen": "q6", "simbolo": "e", "destino": "NA"},
+
+    {"origen": "NA", "simbolo": "a", "destino": "NA"},
+    {"origen": "NA", "simbolo": "b", "destino": "NA"},
+    {"origen": "NA", "simbolo": "c", "destino": "NA"},
+    {"origen": "NA", "simbolo": "d", "destino": "NA"},
+    {"origen": "NA", "simbolo": "e", "destino": "NA"}
+  ]
+}

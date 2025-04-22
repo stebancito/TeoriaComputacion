@@ -1,0 +1,19 @@
+{
+  "alfabeto": ["0", "1"],
+  "estados": ["q0", "q1", "q2", "q3"],
+  "e_inicial": "q0",
+  "e_finales": ["q1"],
+  "trancisiones": [
+      {"simbolo": "0", "origen": "q0", "destino": "q2"},
+      {"simbolo": "1", "origen": "q0", "destino": "q1"},
+      
+      {"simbolo": "0", "origen": "q1", "destino": "q3"},
+      {"simbolo": "1", "origen": "q1", "destino": "q0"},
+      
+      {"simbolo": "0", "origen": "q2", "destino": "q0"},
+      {"simbolo": "1", "origen": "q2", "destino": "q3"},
+      
+      {"simbolo": "0", "origen": "q3", "destino": "q1"},
+      {"simbolo": "1", "origen": "q3", "destino": "q2"}
+  ]
+}
