@@ -1,0 +1,17 @@
+{   
+    "alfabeto": ["a","b"],
+    "estados": ["A", "B", "C", "D", "E", "F", "G", "H", "I"],
+    "e_inicial": "A",
+    "e_finales": ["H", "I"],
+    "transiciones": [
+        { "simbolo": "", "origen": "A", "destino": ["B"] },
+        { "simbolo": "a", "origen": "B", "destino": ["C"] },
+        { "simbolo": "", "origen": "C", "destino": ["B", "D"] },
+        { "simbolo": "", "origen": "D", "destino": ["E", "G"] },
+        { "simbolo": "b", "origen": "E", "destino": ["F"] },
+        { "simbolo": "", "origen": "F", "destino": ["G", "E"] },
+        { "simbolo": "c", "origen": "G", "destino": ["H"] },
+        { "simbolo": "", "origen": "H", "destino": ["I"] },
+        { "simbolo": "", "origen": "I", "destino": ["I"] }
+    ]
+}  
