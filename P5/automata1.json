@@ -1,5 +1,5 @@
 {   
-    "alfabeto": ["a","b"],
+    "alfabeto": ["a","b", "c"],
     "estados": ["A", "B", "C", "D", "E", "F", "G", "H", "I"],
     "e_inicial": "A",
     "e_finales": ["H", "I"],

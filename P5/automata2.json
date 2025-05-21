@@ -1,0 +1,26 @@
+{
+  "alfabeto": ["a", "b"],
+  "estados": ["Edo0", "Edo1", "Edo2", "Edo3", "Edo4", "Edo5", "Edo6", "Edo7", "Edo8", "Edo9", "Edo10", "Edo11", "Edo12"],
+  "e_inicial": "Edo0",
+  "e_finales": ["Edo11", "Edo12"],
+  "transiciones": [
+    { "simbolo": "", "origen": "Edo0", "destino": ["Edo8"] },
+    { "simbolo": "", "origen": "Edo0", "destino": ["Edo1"] },
+    { "simbolo": "", "origen": "Edo1", "destino": ["Edo7"] },
+    { "simbolo": "", "origen": "Edo1", "destino": ["Edo2"] },
+    { "simbolo": "", "origen": "Edo2", "destino": ["Edo3"] },
+    { "simbolo": "", "origen": "Edo2", "destino": ["Edo5"] },
+    { "simbolo": "b", "origen": "Edo3", "destino": ["Edo4"] },
+    { "simbolo": "", "origen": "Edo4", "destino": ["Edo3"] },
+    { "simbolo": "", "origen": "Edo4", "destino": ["Edo5"] },
+    { "simbolo": "a", "origen": "Edo5", "destino": ["Edo6"] },
+    { "simbolo": "", "origen": "Edo6", "destino": ["Edo7"] },
+    { "simbolo": "", "origen": "Edo6", "destino": ["Edo2"] },
+    { "simbolo": "", "origen": "Edo7", "destino": ["Edo10"] },
+    { "simbolo": "b", "origen": "Edo8", "destino": ["Edo9"] },
+    { "simbolo": "", "origen": "Edo9", "destino": ["Edo10"] },
+    { "simbolo": "a", "origen": "Edo10", "destino": ["Edo12"] },
+    { "simbolo": "", "origen": "Edo11", "destino": ["Edo12"] },
+    { "simbolo": "b", "origen": "Edo12", "destino": ["Edo12"] }
+  ]
+}
